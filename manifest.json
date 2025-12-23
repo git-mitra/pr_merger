@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "PR Merger",
+    "version": "1.0",
+    "description": "Automated Squash and Merge helper for GitHub PRs",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://github.com/*/*/pull/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ]
+}
