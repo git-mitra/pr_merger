@@ -6,8 +6,8 @@ Manually copying ticket links and formatting commit messages is tedious. This ex
 
 ## Features
 
-- **Auto-Formatting**: Grabs the PR title and prefixes it based on your branch name (e.g. `feat(subtitles): ...` if your branch is `feat/subtitles`).
-- **Ticket Extraction**: Scans the PR body for ticket references (like `CLI-1234` or `GAMMA-9876`) and grabs their full links.
+- **Auto-Formatting**: Grabs the PR title and prefixes it based on your branch name (e.g. `feat(OPTIMISATION): ...` if your branch is `feat/optimisation`).
+- **Ticket Extraction**: Scans the PR body for ticket references (like `JIRA-1234` or `JIRA-9876`) and grabs their full links.
 - **Sidebar UI**: Opens a non-intrusive sidebar with the formatted message ready to copy. One click to "Copy All".
 
 ## Usage
